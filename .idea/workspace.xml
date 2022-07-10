@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da3883c8-269d-493f-b8da-3d6d6efc3fe5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/word/count/file/FileOperationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/word/count/inter/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/word/count/inter/WordCountProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/word/count/processer/FileExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/word/count/processer/FileWordCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/word/count/processer/InvalidFileArgumentProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/word/count/service/OutputUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/word/count/service/WordCountProcessorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/word/count/service/WordCountUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/EditCofigurations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bible_daily.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/helloWorld.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/javaCoding.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/word/count/file/FileOperationImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/word/count/processer/FileWordCounterInterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/word/count/processer/FileWordCounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/word/count/service/WordCountProcessorImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/word/count/service/WordCountUtilsTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BhXzG0h82Jc7EsvKwyLvHatKZ6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/david/synalogik/word-count/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in word-count">
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.word.count.processer.FileWordCounter" />
+      <module name="word-count" />
+      <option name="PROGRAM_PARAMETERS" value="src/main/resources/javaCoding.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in word-count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="word-count" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileWordCounterInterTest.processTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="word-count" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.word.count.processer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.word.count.processer" />
+      <option name="MAIN_CLASS_NAME" value="org.word.count.processer.FileWordCounterInterTest" />
+      <option name="METHOD_NAME" value="processTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileWordCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="word-count" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.word.count.processer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.word.count.processer" />
+      <option name="MAIN_CLASS_NAME" value="org.word.count.processer.FileWordCounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileWordCounterTest.validExtension_error_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="word-count" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.word.count.processer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.word.count.processer" />
+      <option name="MAIN_CLASS_NAME" value="org.word.count.processer.FileWordCounterTest" />
+      <option name="METHOD_NAME" value="validExtension_error_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileWordCounterTest.validExtension_error_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="word-count" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.word.count.processer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.word.count.processer" />
+      <option name="MAIN_CLASS_NAME" value="org.word.count.processer.FileWordCounterTest" />
+      <option name="METHOD_NAME" value="validExtension_error_3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.main" />
+      <item itemvalue="JUnit.All in word-count" />
+      <item itemvalue="JUnit.FileWordCounterInterTest.processTest" />
+      <item itemvalue="JUnit.FileWordCounterTest.validExtension_error_2" />
+      <item itemvalue="JUnit.FileWordCounterTest.validExtension_error_3" />
+      <item itemvalue="JUnit.FileWordCounterTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in word-count" />
+        <item itemvalue="JUnit.FileWordCounterInterTest.processTest" />
+        <item itemvalue="JUnit.FileWordCounterTest" />
+        <item itemvalue="JUnit.FileWordCounterTest.validExtension_error_3" />
+        <item itemvalue="JUnit.FileWordCounterTest.validExtension_error_2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da3883c8-269d-493f-b8da-3d6d6efc3fe5" name="Changes" comment="" />
+      <created>1657359553960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657359553960</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/word/count/service/WordCountProcessorImplTest.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/word/count/processer/FileWordCounter.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/word/count/processer/FileWordCounterTest.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/word/count/processer/FileWordCounterTest.java</url>
+          <line>127</line>
+          <properties class="org.word.count.processer.FileWordCounterTest" method="validExtension_1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/word_count$FileWordCounterTest.ic" NAME="FileWordCounterTest Coverage Results" MODIFIED="1657410013462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.word.count.processer.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/word_count$FileWordCounterTest_processTest.ic" NAME="FileWordCounterTest.processTest Coverage Results" MODIFIED="1657403304224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.word.count.processer.*</FILTER>
+    </SUITE>
+  </component>
+</project>
