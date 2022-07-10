@@ -31,7 +31,7 @@ Then run project from terminal:
 
 or
 
-`java -cp target/word-count-1.0-SNAPSHOT.jar org.word.count.processer.FileWordCounter`  *// without parameter would get run default .txt file.*
+`java -cp target/word-count-1.0-SNAPSHOT.jar org.word.count.processer.FileWordCounter`  *// without parameter would run default .txt file.*
 
 or any path to your .txt file instead of 'src/main/resources/javaCoding.txt'
 
