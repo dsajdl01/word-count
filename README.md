@@ -18,13 +18,22 @@ in IntelliJ IDEA go to:
     *run -> Edit Configuration..*
 
 
-## RUN Download and Run Word Count Application
+## Download and Run Word Count Application from the Terminal
 
 To download the word-count app clone the word-count project to your PC by using command `git clone`
 
-Then go to the work-count project and build project by running `mvn clean install`
+In terminal go to work-count directory `cd work-count` 
+Then in the work-count directory run command to build project: `mvn clean install`
 
-Then go to IntelliJ and run the main method in FileWordCounter class see image 01
+Then run project from terminal:
+
+`java -cp target/word-count-1.0-SNAPSHOT.jar org.word.count.processer.FileWordCounter src/main/resources/javaCoding.txt`
+
+or
+
+`java -cp target/word-count-1.0-SNAPSHOT.jar org.word.count.processer.FileWordCounter` *// without parameter would get run default .txt file.*
+
+or any path to your .txt file instead of 'src/main/resources/javaCoding.txt'
 
 
 *Created By David Sajdl 10 July 2022*
