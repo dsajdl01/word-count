@@ -25,7 +25,10 @@ public class FileWordCounter
     WordCountProcessor wordCountProcessor;
 
     private final static String WORD_COUNT =  "World count = %d";
+    private final static String USING_FILE = "Using file name: %s";
     private final static String LINE_CONTENT = "Line content: %n'%s'%n";
+
+    private final static String FILE_NOT_EXIST = "Provided file name does not exist";
     private final String AVG_WORDS_LENGTH = "Average word length = %.3f";
 
     private final String NUM_WORDS_OF_LENGTH = "Number of words of length %d is %d";
@@ -62,10 +65,10 @@ public class FileWordCounter
     protected void process() throws InvalidFileArgumentProblem
     {
         if (fileOperation.fileExist(PATH_TO_FILE_NAME)) {
-            infoMsg("Using file name: " + PATH_TO_FILE_NAME.toString());
+            infoMsg(String.format(USING_FILE, PATH_TO_FILE_NAME.toString()));
         } else {
-            errorMsg("Provided file nam does not exist");
-            throw new InvalidFileArgumentProblem("Provided file nam does not exist");
+            errorMsg(FILE_NOT_EXIST);
+            throw new InvalidFileArgumentProblem(FILE_NOT_EXIST);
         }
 
         try

@@ -94,7 +94,7 @@ public class FileWordCounterTest
                 assertThat(e.getMessage(), equalTo("Provided file nam does not exist"));
             }
             finally {
-                utilities.verify(() -> OutputUtils.errorMsg("Provided file nam does not exist"));
+                utilities.verify(() -> OutputUtils.errorMsg("Provided file name does not exist"));
                 verify(fileOperationMock, never()).getFilesAllLines(any(Path.class));
             }
         }
