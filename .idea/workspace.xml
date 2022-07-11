@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="da3883c8-269d-493f-b8da-3d6d6efc3fe5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/word/count/processer/FileWordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/word/count/processer/FileWordCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/word/count/processer/FileWordCounterInterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/word/count/processer/FileWordCounterInterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/word/count/processer/FileWordCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/word/count/processer/FileWordCounterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -91,7 +91,7 @@ public class FileWordCounterTest
                 fail("error should occur here");
             }
             catch (InvalidFileArgumentProblem e ) {
-                assertThat(e.getMessage(), equalTo("Provided file nam does not exist"));
+                assertThat(e.getMessage(), equalTo("Provided file name does not exist"));
             }
             finally {
                 utilities.verify(() -> OutputUtils.errorMsg("Provided file name does not exist"));
